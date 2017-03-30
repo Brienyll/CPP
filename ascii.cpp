@@ -13,7 +13,7 @@ int main() {
 	cout << "ASCII character of " << ch << " is " << num << endl;
 
 	system("pause");
-	*/
+	
 	int num;
 	cout << "Enter a number " << endl;
 	cin >> num;
