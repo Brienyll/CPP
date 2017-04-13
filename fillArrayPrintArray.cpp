@@ -7,7 +7,6 @@ void printArray(int n[], int size);
 
 int main() {
 	int num[10];
-	int size;
 	fillArray(num, 10);
 	printArray(num, 10);
 	system("pause");
