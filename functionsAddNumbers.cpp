@@ -3,9 +3,9 @@
 using namespace std;
 //prototypes
 void printHello();
-void getNums(int &x, int &y);
-void addNums(int x, int y, int &z);
-void printRes(int z);
+void getNums(int &n1, int &n2);
+void addNums(int n1, int n2, int &n3);
+void printRes(int n1);
 
 int main() {
 	int x, y, z;
