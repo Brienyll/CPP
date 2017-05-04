@@ -6,7 +6,6 @@ using namespace std;
 
 void fillArray(int n[], int size);
 void printArray(int n[], int size);
-//void findNumber(int n[], int size, int num);
 void readData(int n[]);
 void findCount(int n[], int size, int num);
 
@@ -34,18 +33,6 @@ void printArray(int n[], int size) {
 	}
 	outData.close();
 }
-
-//void findNumber(int n[], int size, int num) {
-//	ifstream inData;
-//	inData.open("C:\\temp\\test.txt");
-//	int count = 0;
-//	for (int i = 0; i < size; i++) {
-//		if (n[i] == num) {
-//			count += 1;
-//		}
-//	}
-//	inData.close();
-//}
 
 void findCount(int n[], int size, int num) {
 	ofstream outData;
